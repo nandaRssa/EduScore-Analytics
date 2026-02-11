@@ -35,7 +35,7 @@ page = st.sidebar.radio("Pilih Halaman:", ["Dashboard Utama", "Exploratory Data 
 
 # --- Halaman 1: Dashboard Utama ---
 if page == "Dashboard Utama":
-    st.title("🚀 Student Performance Analytics")
+    st.title("Student Performance Analytics")
     st.markdown("""
     ### Business Understanding
     Aplikasi ini bertujuan untuk mengidentifikasi variabel penting yang memengaruhi skor ujian siswa. 
@@ -52,7 +52,7 @@ if page == "Dashboard Utama":
 
 # --- Halaman 2: Exploratory Data Analysis (EDA) ---
 elif page == "Exploratory Data Analysis":
-    st.title("📊 Visualisasi Data Mendalam")
+    st.title("Visualisasi Data Mendalam")
     
     tab_dist, tab_corr, tab_cat = st.tabs(["Distribusi Skor", "Analisis Korelasi", "Analisis Kategorikal"])
 
@@ -85,7 +85,7 @@ elif page == "Exploratory Data Analysis":
 
 # --- Halaman 3: Prediksi Skor ---
 elif page == "Prediksi Skor":
-    st.title("🔮 Prediksi Skor Matematika")
+    st.title("Prediksi Skor Matematika")
     st.write("Masukkan parameter siswa di bawah ini untuk mendapatkan hasil prediksi.")
 
     with st.container(border=True):
